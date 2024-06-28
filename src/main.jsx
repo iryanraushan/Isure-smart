@@ -5,11 +5,14 @@ import "./index.css";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { ThemeProvider } from "@material-tailwind/react";
 
+const CLIENT_ID = await import.meta.env.VITE_CLIENT_ID;
+const DOMAIN_ID = await import.meta.env.VITE_DOMAIN_ID;
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
-      domain="dev-s6hhg0ber71eywkq.us.auth0.com"
-      clientId="CMOtfUth08KXvKGCQ36J2NYErMMJAttt"
+      domain={DOMAIN_ID}
+      clientId={CLIENT_ID}
       authorizationParams={{
         redirect_uri: window.location.origin,
       }}

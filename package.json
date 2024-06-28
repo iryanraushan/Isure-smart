@@ -22,6 +22,8 @@
     "@material-tailwind/react": "^2.1.9",
     "@remixicon/react": "^4.2.0",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "dotenv-webpack": "^8.1.0",
     "firebase": "^9.23.0",
     "firebase-functions": "^4.3.0",
     "openai": "^4.49.1",

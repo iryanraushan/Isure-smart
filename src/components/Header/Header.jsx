@@ -26,6 +26,10 @@ const nav__links = [
     path: "/about",
     display: "About",
   },
+  {
+    path: "/about",
+    display: "About",
+  },
 ];
 
 const navList = (
@@ -66,7 +70,10 @@ const navList = (
       color="blue-gray"
       className="px-1 font-semibold"
     >
-      <Link to="/" className="flex items-center text-xl">
+      <Link
+        to="https://github.com/iryanraushan/Isure-smart"
+        className="flex items-center text-xl"
+      >
         Docs
       </Link>
     </Typography>
